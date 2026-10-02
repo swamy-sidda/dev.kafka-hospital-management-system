@@ -59,7 +59,8 @@ Payment Service
        | OpenFeign
        v
 Billing Service
-</div> ```
+```
+</div> 
 
 Payment Service validates the billing information before processing a payment.
 

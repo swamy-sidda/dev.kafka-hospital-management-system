@@ -51,12 +51,15 @@ The project uses two types of communication.
 
 Example:
 
+<div align="center">
+
 ```text
 Payment Service
        |
        | OpenFeign
        v
 Billing Service
+</div> ```
 
 Payment Service validates the billing information before processing a payment.
 

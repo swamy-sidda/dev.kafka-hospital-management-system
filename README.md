@@ -50,17 +50,12 @@ The project uses two types of communication.
 **OpenFeign** is used when one service needs an immediate response from another service.
 
 Example:
-
-<div align="center">
-
-```text
 Payment Service
        |
        | OpenFeign
        v
 Billing Service
-```
-</div> 
+
 
 Payment Service validates the billing information before processing a payment.
 
@@ -248,18 +243,10 @@ The Kafka installation used for this project is:
 
 C:\kafka\kafka
 3. Start Eureka Server
-
-Start:
-
-eureka-server
-
-Open:
-
-http://localhost:8761
+Start:eureka-server
+Open: http://localhost:8761
 4. Start the Microservices
-
 Start the services in IntelliJ IDEA or STS:
-
 patient-service
 doctor-service
 appointment-service
@@ -269,7 +256,7 @@ medicine-service
 notification-service
 API Base URLs
 Patient Service
-http://localhost:8081/api/patients
+git http://localhost:8081/api/patients
 Doctor Service
 http://localhost:8082/api/doctors
 Appointment Service
